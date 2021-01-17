@@ -33,6 +33,7 @@ if nx.is_directed_acyclic_graph:
         print(f"Upisani graf je planaran")
         if is_tree:
             print(f"Stablo je")
+            print(f"{nx.minimum_cycle_basis}")
     else:
         # Promijeni što manje smjer bridova kako bi ga učinio cikličkim
         print(f"Upisani graf nije planaran")

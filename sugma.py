@@ -70,6 +70,9 @@ for v in g.C[0].sV:
     dataY.append(v.view.xy[1])
 
 plt.scatter(dataX, dataY)
+plt.title("Hijerarhijski alg")
+plt.xlabel("x-label")
+plt.ylabel("y-label")
 plt.show()
 
 # for l in sug.layers:
