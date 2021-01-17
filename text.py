@@ -19,7 +19,7 @@ G.add_edges_from([('Obavijest', 'Zaposlenik'), ('Obavijest', 'Poruka'), ('Recenz
 
 # Nacrtan zadani graf u planarnom obliku
 plt.title('Algoritmi za crtanje grafova')
-nx.draw_planar(G, with_labels=True, arrows=True)
+nx.draw_planar(G, with_labels=True, arrows=True, prog="dot")
 plt.show()
 
 
