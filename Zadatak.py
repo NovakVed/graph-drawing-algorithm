@@ -34,11 +34,12 @@ if nx.is_directed_acyclic_graph:
         if is_tree:
             print(f"Stablo je")
     else:
-        # Promijeni što manje smjer bridova kako bi ga učinio cikličkim
         print(f"Upisani graf nije planaran")
         sys.exit()
+        
+# Promijeni što manje smjer bridova kako bi ga učinio cikličkim
 else:
     print(f"Ne radi se o DAG grafu")
-    sys.exit()   
+    sys.exit()
 
 # Nacrtan hijerarhijski graf
